@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menu</title>
+    <meta charset="UTL-8">
+  </head>
+  <body>
+      <h1><?php echo 'Cadastro'; ?></h1>
+      <form action="AV1.php" method="post">
+        Nome: <input type="text" name="nome" required="nome">
+        <br><br>
+        Email: <input type="text" name="email" required="email">
+        <br><br>
+        Senha: <input type="number" name="senha" required="senha">
+        <br><br>
+        Selecione o tipo de suas questões:
+        <br><br>
+        <input type="radio" name="Tipo de pergunta" value="multipla"> Múltipla Escolha
+        <input type="radio" name="Tipo de pergunta" value="cursiva"> Texto
+        <input type="submit" value="cadastrar">
+      </form>
+  </body>
+</html>

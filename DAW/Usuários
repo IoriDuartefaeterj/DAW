@@ -1,5 +1,5 @@
 <?php
-$arquivo = "dados/usuarios.txt";
+$arquivo = "Usuários.txt";
 
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];

@@ -1,0 +1,10 @@
+Formato de questões de Múltipla Escolha:
+{"id":1,"tipo":"multipla","pergunta":"Questão 1: Um arquiteto deve contratar determinado número de operários para acelerar uma construção que está levando entorno de 15 dias com 6 operários trabalhando 4 horas por dia.
+sabendo que já se passaram 5 dias desde o começo da obra até a contratação, quantos operários ele deve contratar para que o número de dias seja reduzido para 5 dias, com trabalho de 6 horas por dia?",
+"opcoes":["A.1","B.2","C.3","D.4],"correta":B.2}
+
+{"id":2,"tipo":"multipla","pergunta":"Questão 2: A Guerra Fria foi um embate de ideologias em diversas partes do mundo, protagonizadas em sua maioria por:","opcoes":["A.EUA e URSS","B.EUA e Reino Unido","C.EUA e China"
+"D.URSS e China"],"correta":A.EUA e URSS}
+
+   
+Questão 3:

@@ -1,0 +1,29 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+
+<h2>Cadastro</h2>
+
+<form action="salvar_usuario.php" method="POST">
+
+    <label>Usuário:</label><br>
+    <input type="text" name="usuario" required><br><br>
+
+    <label>Senha:</label><br>
+    <input type="password" name="senha" required><br><br>
+
+    <button type="submit">Cadastre-se!</button>
+
+</form>
+
+<br>
+<a href="DAW AV1">Já tenho conta</a>
+
+</body>
+</html>

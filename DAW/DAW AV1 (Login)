@@ -13,6 +13,7 @@
         <br><br>
         Senha: <input type="number" name="senha" required="senha">
         <br><br>
+        <button type="submit">Login</button>
       </form>
   </body>
 </html>

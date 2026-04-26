@@ -24,9 +24,9 @@
     <td><?= $p['pergunta'] ?></td>
     <td><?= $p['tipo'] ?></td>
     <td>
-        <a href="visualizar.php?id=<?= $p['id'] ?>">Ver</a> |
-        <a href="editar.php?id=<?= $p['id'] ?>">Editar</a> |
-        <a href="excluir.php?id=<?= $p['id'] ?>">Excluir</a>
+        <a href="Visualização.php?id=<?= $p['id'] ?>">Ver</a> |
+        <a href="Edição.php?id=<?= $p['id'] ?>">Editar</a> |
+        <a href="Excluir.php?id=<?= $p['id'] ?>">Excluir</a>
     </td>
 </tr>
 <?php endforeach; ?>

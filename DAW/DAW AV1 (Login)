@@ -14,6 +14,7 @@
         Senha: <input type="number" name="senha" required="senha">
         <br><br>
         <button type="submit">Login</button>
+        <a href="DAW AV1 (Cadastro).php">Criar conta</a>
       </form>
   </body>
 </html>

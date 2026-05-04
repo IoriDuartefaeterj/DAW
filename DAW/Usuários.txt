@@ -11,7 +11,7 @@ foreach ($linhas as $linha) {
     $u = json_decode($linha, true);
 
     if ($u['usuario'] == $usuario) {
-        echo "Usuário já existe! <a href='cadastro.php'>Voltar</a>";
+        echo "Usuário já existe! <a href='cadastro.html'>Voltar</a>";
         exit;
     }
 }
@@ -24,6 +24,6 @@ $dados = [
 
 file_put_contents($arquivo, json_encode($dados) . PHP_EOL, FILE_APPEND);
 
-echo "Cadastro realizado! <a href='login.php'>Fazer login</a>";
+echo "Cadastro realizado! <a href='login.html'>Fazer login</a>";
 ?>
 {"usuario":"André Neves","senha":"DAW3per"}

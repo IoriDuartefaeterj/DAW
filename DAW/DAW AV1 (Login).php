@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Menu</title>
+    <title>LOGIN</title>
     <meta charset="UTL-8">
   </head>
   <body>
@@ -13,11 +13,8 @@
         <br><br>
         Senha: <input type="number" name="senha" required="senha">
         <br><br>
-        Selecione o tipo de suas questões:
-        <br><br>
-        <input type="radio" name="Tipo de pergunta" value="multipla"> Múltipla Escolha
-        <input type="radio" name="Tipo de pergunta" value="cursiva"> Texto
-        <input type="submit" value="cadastrar">
+        <button type="submit">Login</button>
+        <a href="DAW AV1 (Cadastro).php">Não possui Login?</a>
       </form>
   </body>
 </html>

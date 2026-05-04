@@ -11,7 +11,7 @@ foreach ($linhas as $linha) {
 
     if ($u['usuario'] == $usuario && $u['senha'] == $senha) {
         $_SESSION['usuario'] = $usuario;
-        header("Location: index.php");
+        header("Location: DAW AV1.html");
         exit;
     }
 }

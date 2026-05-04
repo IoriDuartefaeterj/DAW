@@ -24,5 +24,5 @@ if ($tipo == "multipla") {
 
 file_put_contents($arquivo, json_encode($dados) . PHP_EOL, FILE_APPEND);
 
-echo "Pergunta salva! <a href='listar.php'>Ver lista</a>";
+echo "Pergunta salva! <a href='listar.html'>Ver lista</a>";
 ?>
